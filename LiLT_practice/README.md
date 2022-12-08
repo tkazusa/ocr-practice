@@ -1,8 +1,22 @@
+# LiLT: A better language agnostic LayoutLM model
+
+# Setup Development Environment
 ```
 # ubuntu
-!sudo apt install -y tesseract-ocr
+> sudo apt install -y tesseract-ocr
 # python
-!pip install -r requirements.txt --upgrade
+> pip install -r requirements.txt --upgrade
 # install git-fls for pushing model and logs to the hugging face hub
-!sudo apt-get install git-lfs --yes
+> sudo apt-get install git-lfs --yes
+```
+
+# Run a training script
+```
+> python3 train.py
+```
+
+
+# Run a inference script
+```
+> python3 inference.py
 ```
