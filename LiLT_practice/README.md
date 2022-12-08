@@ -1,4 +1,6 @@
 # LiLT: A better language agnostic LayoutLM model
+The script is based on this [tutorial](https://www.philschmid.de/fine-tuning-lilt)
+
 
 # Setup Development Environment
 ```
